@@ -1,0 +1,41 @@
+.btn-close-all {
+  width: 10px;
+  height: 10px;
+  background-size: 8px;
+}
+
+.day {
+  min-height: 160px;
+  max-height: 160px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.day:hover {
+  background-color: #f3f3f3;
+}
+
+.day[data-weekend] {
+  background-color: lightgrey;
+  color: #0d6efd;
+}
+
+.day[data-weekend]:hover {
+  background-color: #e3e3e3;
+}
+
+.day:not([data-current]) {
+  color: darkgray;
+}
+
+.row:not(:first-child) .day {
+  border-top-width: 0 !important;
+}
+
+.day:not(:first-child) {
+  border-left-width: 0 !important;
+}
+
+.title {
+  z-index: 1010;
+}

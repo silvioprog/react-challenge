@@ -1,0 +1,20 @@
+.reminders {
+  max-height: 134px;
+}
+
+.reminders::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+.reminders::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.reminders::-webkit-scrollbar-thumb {
+  background: darkgray;
+}
+
+.reminders::-webkit-scrollbar-thumb:hover {
+  background: darkgray;
+}
